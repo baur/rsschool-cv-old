@@ -13,12 +13,14 @@ __My goal is to become a Fullback Web Developer__
 
 ---
 ### Skills
+
 #### DB
 - Relational databases (Database normalization)
 - Database Development
   - PL\SQL (Oracle)
   - T-SQL (MSSQL)
-- SQL Server Reporting Services (SSRS)
+- SQL Server Reporting Services (SSRS)  
+
 #### Web
 Basic levels of:
 - JavaScript
