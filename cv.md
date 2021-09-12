@@ -77,9 +77,9 @@ from 2013 | Kazakhmys PLC (Kazakhstan / Zhezkazgan)
 
 #### Courses and Certificates
 
-- [x] Udemy [JavaScript](https://www.udemy.com/certificate/UC-7c924e05-f3bd-49c3-962b-40700b6b70e3/)
-- [ ] RS School [JavaScript/Front-end 2021Q3](https://rs.school/js/)
-- [ ] Hexlet [JavaScript/Front-end](https://ru.hexlet.io/programs/frontend)
+- Udemy [JavaScript](https://www.udemy.com/certificate/UC-7c924e05-f3bd-49c3-962b-40700b6b70e3/) (completed)
+- RS School [JavaScript/Front-end 2021Q3](https://rs.school/js/) (in progress)
+- Hexlet [JavaScript/Front-end](https://ru.hexlet.io/programs/frontend) (in progress)
 
 ---
 ### English
