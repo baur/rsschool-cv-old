@@ -65,7 +65,7 @@ function absentVowel(x) {
 2008 - 2012 | IT Departament | Kazakhstan / Almaty
 ```
 
-- Custom reports and scripts in PL/SQL (Oracle) for banking the system
+- Custom reports and scripts in PL/SQL (Oracle) for banking system
 
 *[Kazakhmys PLC](https://www.linkedin.com/company/kazakhmys-plc?)*
 ```
