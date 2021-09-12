@@ -52,13 +52,17 @@ function absentVowel(x) {
 
 ---
 ### Experience
-> IT Specialist
-> 2008 - 2012 | **JSC Temirbank** (Kazakhstan / Almaty)  
+*IT Departament*
+```
+2008 - 2012 | JSC Temirbank (Kazakhstan / Almaty)
+```
 
 - Custom reports and scripts in PL/SQL (Oracle) for banking the system
 
-> IT Specialist  
-> from 2013 | **[Kazakhmys PLC](https://kz.linkedin.com/company/kazakhmys-plc)** (Kazakhstan / Zhezkazgan)  
+*IT Departament*
+```
+from 2013 | Kazakhmys PLC (Kazakhstan / Zhezkazgan)
+```
 
 - Create reports in T-SQL (MS SQL Server)
 - Publish reports via [SQL Server Reporting Services (SSRS)](https://en.wikipedia.org/wiki/SQL_Server_Reporting_Services)
@@ -66,9 +70,10 @@ function absentVowel(x) {
 
 ---
 ### Education
-> Zhezkazgan University
-> **2001 - 2006 | Informatics (010540)**   
-
+*Zhezkazgan University*
+```
+2001 - 2006 | Informatics (010540)
+```
 
 #### Courses and Certificates
 
