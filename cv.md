@@ -60,16 +60,16 @@ function absentVowel(x) {
 
 ---
 ### Experience
-*IT Departament*
+*JSC Temirbank*
 ```
-2008 - 2012 | JSC Temirbank (Kazakhstan / Almaty)
+2008 - 2012 | IT Departament | Kazakhstan / Almaty
 ```
 
 - Custom reports and scripts in PL/SQL (Oracle) for banking the system
 
-*IT Departament*
+*[Kazakhmys PLC](https://www.linkedin.com/company/kazakhmys-plc?)*
 ```
-from 2013 | Kazakhmys PLC (Kazakhstan / Zhezkazgan)
+from 2013 | IT Departament | Kazakhstan / Zhezkazgan
 ```
 
 - Create reports in T-SQL (MS SQL Server)
