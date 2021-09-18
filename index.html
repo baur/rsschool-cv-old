@@ -71,27 +71,27 @@
   <p><strong>Notes:</strong> There is no need for string validation and every sentence given will contain all vowles
     but one. Also, you won’t need to worry about capitals.</p>
   <p><strong>Examples</strong></p>
-  <code>
-   <pre>
+  <pre>
+    <code>
  "John Doe hs seven red pples under his bsket"          =&gt;  0  ; missing: "a"
  "Bb Smith sent us six neatly arranged range bicycles"  =&gt;  3  ; missing: "o"
-   </pre>
-  </code>
+    </code>
+  </pre>
   <p><strong>Solution</strong></p>
-  <code>
-    <pre>
+  <pre>
+    <code>
 function absentVowel(x) {
   const vowels = ["A", "E", "I", "O", "U"];
   const word = x.toUpperCase();
-  for (let i = 0; i < vowels.length; i++) {
+  for (let i = 0; i &lt; vowels.length; i++) {
     if (word.indexOf(vowels[i]) === -1) {
       return i;
     }
   }
   return 0;
 }
-    </pre>
   </code>
+  </pre>
   <hr>
   <h3>Experience</h3>
   <p><strong>JSC Temirbank</strong></p>
