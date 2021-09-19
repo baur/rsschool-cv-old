@@ -1,16 +1,222 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rsschool-cv-html</title>
-    <link rel="stylesheet" href="styles/styles.css">
-</head>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
 
-<body>
+  <body>
+    <main>
+      <div class="container">
+        <nav></nav>
+        <header class="info">
+          <img
+            class="avatar"
+            src="https://avatars.githubusercontent.com/u/2898361?v=4"
+            alt="Profile photo"
+          />
+          <div class="info-text">
+            <h1>Yessetov Bauyrzhan</h1>
+            <p>Beginner Frontend Developer</p>
+            <h4>Contact information:</h4>
+            <ul class="list contact">
+              <li><strong>E-mail:</strong> Bauyrzhan.Yessetov@gmail.com</li>
+              <li>
+                <strong>Telegram:</strong>
+                <a
+                  href="https://t.me/baur114"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >@Baur114</a
+                >
+              </li>
+            </ul>
+          </div>
+        </header>
 
-</body>
+        <section>
+          <div class="card bg-yellow">
+            <h3>Summary</h3>
+            <p>
+              For a long time, I worked as a developer at a mining company. I
+              mostly worked with databases and developed desktop applications
+              and did not pay attention to what was going on in the IT world.
+              One day I found out that the world was changing and IT is not the
+              same when I graduated. I decided to make up for lost time and took
+              up front-end development.
+            </p>
+            <p>
+              <strong>My goal is to become a Fullback Web Developer</strong>
+            </p>
+          </div>
 
+          <div class="card bg-green">
+            <h3>Skills</h3>
+            <h4>DB</h4>
+            <ul class="list">
+              <li>Relational databases (Database normalization)</li>
+              <li>
+                Database Development
+                <ul class="sublist">
+                  <li>PL\SQL (Oracle)</li>
+                  <li>T-SQL (MSSQL)</li>
+                </ul>
+              </li>
+              <li>SQL Server Reporting Services (SSRS)</li>
+            </ul>
+            <h4>Web</h4>
+            <p>Basic levels of:</p>
+            <ul class="list">
+              <li>JavaScript</li>
+              <li>HTML/CSS</li>
+              <li>NodeJS</li>
+            </ul>
+          </div>
+          <div class="card bg-red">
+            <h3>Code Example</h3>
+            <p>
+              Your job is to figure out the index of which vowel is missing from
+              a given string:
+            </p>
+            <code>
+              - [A] has an index of 0, <br />
+              - [E] has an index of 1, <br />
+              - [I] has an index of 2, <br />
+              - [O] has an index of 3, <br />
+              - [U] has an index of 4.
+            </code>
+            <p>
+              <strong>Notes:</strong> There is no need for string validation and
+              every sentence given will contain all vowles but one. Also, you
+              won’t need to worry about capitals.
+            </p>
+            <p><strong>Examples</strong></p>
+            <pre>
+    <code>
+ "John Doe hs seven red pples under his bsket"          =&gt;  0  ; missing: "a"
+ "Bb Smith sent us six neatly arranged range bicycles"  =&gt;  3  ; missing: "o"
+    </code>
+  </pre>
+            <p><strong>Solution</strong></p>
+            <pre>
+    <code>
+function absentVowel(x) {
+  const vowels = ["A", "E", "I", "O", "U"];
+  const word = x.toUpperCase();
+  for (let i = 0; i &lt; vowels.length; i++) {
+    if (word.indexOf(vowels[i]) === -1) {
+      return i;
+    }
+  }
+  return 0;
+}
+  </code>
+  </pre>
+          </div>
+          <div class="card bg-yellow">
+            <h3>Experience</h3>
+            <p><strong>JSC Temirbank</strong></p>
+            <p>2008 - 2012 | IT Departament | Kazakhstan / Almaty</p>
+            <ul class="list">
+              <li>
+                Custom reports and scripts in PL/SQL (Oracle) for banking system
+              </li>
+            </ul>
+            <p>
+              <strong
+                ><a href="https://www.linkedin.com/company/kazakhmys-plc?"
+                  >Kazakhmys PLC</a
+                ></strong
+              >
+            </p>
+            <p>from 2013 | IT Departament | Kazakhstan / Zhezkazgan</p>
+            <ul class="list">
+              <li>Create reports in T-SQL (MS SQL Server)</li>
+              <li>
+                Publish reports via
+                <a
+                  href="https://en.wikipedia.org/wiki/SQL_Server_Reporting_Services"
+                  >SQL Server Reporting Services (SSRS)</a
+                >
+              </li>
+              <li>
+                Create Dashboards in <a href="https://grafana.com/">Grafana</a>
+              </li>
+            </ul>
+          </div>
+          <div class="card bg-green">
+            <h3>Education</h3>
+            <p><strong>Zhezkazgan University</strong></p>
+            <p>2001 - 2006 | Informatics (010540)</p>
+            <h4>Courses and Certificates</h4>
+            <ol class="link-list">
+              <li>
+                Udemy
+                <a
+                  href="https://www.udemy.com/certificate/UC-7c924e05-f3bd-49c3-962b-40700b6b70e3/"
+                  >JavaScript</a
+                >
+                (completed)
+              </li>
+              <li>
+                RS School
+                <a href="https://rs.school/js/">JavaScript/Front-end 2021Q3</a>
+                (in progress)
+              </li>
+              <li>
+                Hexlet
+                <a href="https://ru.hexlet.io/programs/frontend"
+                  >JavaScript/Front-end</a
+                >
+                (in progress)
+              </li>
+            </ol>
+          </div>
+          <div class="card bg-red">
+            <h3>English</h3>
+            <p>
+              <a href="https://www.efset.org/cefr/a1">Level A1</a> (According to
+              EPAM Еraining center test)
+            </p>
+          </div>
+        </section>
+        <footer class="card bg-yellow">
+          <div class="logo">
+            <a
+              class="logo-item"
+              href="https://github.com/baur/rsschool-cv"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fab fa-github-square fa-2x"></i>
+            </a>
+            <a
+              class="logo-item"
+              href="https://rs.school/js/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="https://rs.school/images/rs_school_js.svg"
+                alt="Link to JavaScript/Front-end course"
+                width="80px"
+              />
+            </a>
+          </div>
+          <time>
+            <div class="footer-time-text">2021</div>
+          </time>
+        </footer>
+      </div>
+    </main>
+  </body>
 </html>
