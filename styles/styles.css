@@ -113,3 +113,26 @@ a:visited {
 .list li {
   margin-bottom: 10px;
 }
+
+.logod {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centering y-axis */
+  align-items: center; /* Centering x-axis */
+}
+
+.logo {
+  display: flex;
+  flex-direction: row; /* make main axis horizontal (default setting) */
+  justify-content: center; /* center items horizontally, in this case */
+  align-items: center; /* center items vertically, in this case */
+}
+
+.logo-item {
+  margin: 0 10px;
+}
+
+.footer-time-text {
+  padding-top: 10px;
+  text-align: center;
+}
