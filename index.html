@@ -12,10 +12,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link
-      rel="stylesheet"
-      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/default.min.css"
-    />
+    <link rel="stylesheet" href="styles/prism.css">
   </head>
 
   <body>
@@ -111,8 +108,8 @@ function absentVowel(x){
   const word = x.toUpperCase()
 
   for (let i = 0; i < 5; i++) {
-    const ix = word.indexOf(vowels[i]);
-     if (ix === -1) {
+    const letterIndex = word.indexOf(vowels[i]);
+     if (letterIndex === -1) {
        return i
      }
   }
@@ -216,9 +213,6 @@ function absentVowel(x){
         </footer>
       </div>
     </main>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
-    <script>
-      hljs.highlightAll();
-    </script>
+    <script src="scripts/prism.js"></script>
   </body>
 </html>
